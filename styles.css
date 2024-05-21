@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gilroy;
 }
 
 html,body{
@@ -33,17 +32,17 @@ nav{
 }
 
 nav h1{
-  font-size: 30px;
+  font-size: 20px;
 }
 
 nav h4{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
 }
 
 nav button{
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 5px;
   border: 1px solid #000;
 }
