@@ -33,6 +33,8 @@ nav{
 
 nav h1{
   font-size: 20px;
+  display: flex;
+  align-items: center;
 }
 
 nav h4{
@@ -45,4 +47,51 @@ nav button{
   font-size: 15px;
   border-radius: 5px;
   border: 1px solid #000;
+  background-color: #fff;
+}
+
+.ri-shining-2-fill {
+  font-size: 25px;
+  margin-right: 7px;
+}
+
+
+.center{
+  padding: 70px 100px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.center-part1{
+  width: 45%;
+  height: 100%;
+}
+
+.center-part1 h1{
+  font-size: 45px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.center-part1 p{
+  font-size: 17px;
+  margin-top: 30px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #8f8c8c;
+}
+
+.center-part1 button{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 13px 35px;
+  font-size: 17px;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+.center-part2{
+  width: 53%;
+  height: 100%;
 }
