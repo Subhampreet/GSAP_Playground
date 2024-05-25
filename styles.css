@@ -10,6 +10,10 @@ html,body{
   font-family: "Poppins", sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .section1{
   height: 100%;
   position: relative;
@@ -56,8 +60,8 @@ nav button{
 
 
 .center{
-  padding: 50px 100px;
-  height: 80%;
+  padding: 10px 100px;
+  /* height: 80%; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -94,34 +98,35 @@ nav button{
 
 .center-part2{
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
   position: relative;
 }
 
 .center-part2 img{
   width: 100%;
-  height: 500px;
+  height: 400px;
   object-fit: cover;
   border-radius: 20px;
 }
 
 .section1 .section1bottom{
-  width: 100%;
+  width: 95%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 200px 30px;
+  padding: 0px 200px 30px;
   margin-top: 40px;
 }
 
 .section1 .section1bottom img{
-  width: 130px;
+  width: 120px;
   filter: grayscale(100%);
 }
 
 .section2{
-  padding: 70px 100px; 
-  margin-top: 150px;
+  padding: 40px 100px; 
+  /* margin-top: 150px; */
 }
 
 .section2 .services {
