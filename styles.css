@@ -182,3 +182,25 @@ nav button{
   width: 50%;
 }
 
+
+
+
+
+
+
+.box1{
+  background-color: #000;
+  height: 100vh;
+}
+
+.box2{
+  background-color: aqua;
+  height: 100vh;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: bisque;
+}
+

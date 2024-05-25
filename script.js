@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger) 
+
 function sectionOneAnimation(){
     var tl = gsap.timeline()
 
@@ -41,4 +43,34 @@ function sectionOneAnimation(){
 }
 
 sectionOneAnimation()
+
+// gsap.from(".services h3", {
+//     y: 150,
+//     // opacity:0,
+//     duration:0.5,
+//     scrollTrigger: {
+//         trigger:".section2",
+//         scroller:"body",
+//         start:"top 10%",
+//         markers:true,
+//     }
+// })
+
+// gsap.from(".elem", {
+//     x: -150,
+//     // opacity:0,
+//     // duration:0.7,
+//     // delay: 1,    
+//     scrollTrigger: {
+//         trigger: '.section1',
+//         // pin: true, // pin the trigger element while active
+//         start: 'top 75%',
+//         markers: true
+//     }
+// })
+
+
+
+
+
 
