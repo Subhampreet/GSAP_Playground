@@ -189,7 +189,7 @@ nav button{
 
 
 .box1{
-  background-color: #000;
+  background-color: white;
   height: 100vh;
 }
 
@@ -202,5 +202,52 @@ nav button{
   height: 300px;
   width: 300px;
   background-color: bisque;
+}
+
+
+
+
+/* -------------MARQUEE------------------ */
+
+.marquee{
+  position: relative;
+  background: #000;
+  color: #fff;
+  padding: 30px 0;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-family: "Orbitron", sans-serif;
+}
+
+.marquee_inner{
+  display: flex;
+  width: fit-content;
+  flex: auto;
+  flex-direction: row;
+}
+
+.marquee_part{
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0 4px;
+}
+
+.arrow{
+  width: 60px;
+  height: 80px;
+  margin: 0 1em;
+  /* transform: rotate(90deg); */
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  /* background-color: #fff; */
+  color: #fff !important;
+}
+
+.arrow.active {
+  transform: rotate(-180deg);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
